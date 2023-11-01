@@ -1,0 +1,48 @@
+* {
+  user-select: none;
+  font-family: sans-serif;
+}
+
+html, body{
+  overflow: hidden;
+  background: rgb(29,29,61);
+  background: radial-gradient(circle, rgba(29,29,61,1) 17%, rgba(15,14,48,1) 100%, rgba(94,0,0,1) 100%, rgba(0,212,255,1) 100%);}
+  
+
+#startButton {
+  margin-top: 4vh;
+  display: flex;
+  margin: auto;
+  background-color: rgb(6, 248, 6);
+  border: none;
+  font-size: 50px;
+  border-radius: 30px;
+  padding: 20px;
+  cursor: pointer;
+  transition: .1s all;
+}
+#startButton:hover {
+  transform: scale(1.05);
+  transition: .1s all;
+}
+#point {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  display: none;
+  position: absolute;
+  top: 300px;
+  left: 250px;
+  cursor: pointer;
+  transition: 0.2 ease;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  transition: 02s ease;
+  font-weight: bold;
+  font-size: 2rem;
+}
+#timeInfo {
+  text-align: center;
+  font-size: 20px;;
+  color: white;
+}
